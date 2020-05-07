@@ -959,10 +959,10 @@ function GetSelectedText () {
         var rangeToArray = rangeToString.split(" ");
 
         if (rangeToArray.length === 1) {
-            definitionScreen = window.open(`https://jisho.org/search/${rangeToString}`,"_blank","width=600,height=300,left=100,top=100" );
+            definitionScreen = window.open(`https://jisho.org/search/${rangeToString}`,"_blank","width=310,height=600,left=100,top=100");
             
         } else if(rangeToArray.length > 1) {
-            definitionScreen = window.open(`https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=${rangeToString}`, "_blank", ) 
+            definitionScreen = window.open(`https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=${rangeToString}`, "_blank", "width=310,height=600,left=100,top=100" ) 
           
         } else {
             console.log("no text selected");
