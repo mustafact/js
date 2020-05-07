@@ -1,4 +1,6 @@
 
+
+
 document.body.style.backgroundColor = "gray";
 
 
@@ -947,7 +949,7 @@ function selectUnit (array, bookName, unitNumber) {
 
 
 
-function GetSelectedText (waitingTime) {
+function GetSelectedText () {
 
     let definitionScreen;
 
@@ -958,14 +960,10 @@ function GetSelectedText (waitingTime) {
 
         if (rangeToArray.length === 1) {
             definitionScreen = window.open(`https://jisho.org/search/${rangeToString}`);
-            setTimeout(() => {
-                definitionScreen.close();
-            }, waitingTime);
+            
         } else if(rangeToArray.length > 1) {
             definitionScreen = window.open(`https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=${rangeToString}`, "_ blank") 
-            setTimeout(() => {
-                definitionScreen.close();
-            }, waitingTime);
+          
         } else {
             console.log("no text selected");
         };
@@ -1076,7 +1074,7 @@ htmlOptions(dataChinese);
 // copy text event
 document.addEventListener("copy", function() {
 
-GetSelectedText(10000);
+GetSelectedText();
 
 });
 
