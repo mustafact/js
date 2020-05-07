@@ -959,7 +959,7 @@ function GetSelectedText () {
         var rangeToArray = rangeToString.split(" ");
 
         if (rangeToArray.length === 1) {
-            definitionScreen = window.open(`https://jisho.org/search/${rangeToString}`,"_blank","width=220,height=420,left=5,top=5");
+            definitionScreen = window.open(`https://jisho.org/search/${rangeToString}`,"scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=220,height=400,left=5,top=5");
             
         } else if(rangeToArray.length > 1) {
             definitionScreen = window.open(`https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=${rangeToString}`, "_blank", "width=220,height=420,left=5,top=5" ) 
