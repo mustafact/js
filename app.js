@@ -1004,7 +1004,7 @@ function htmlCreator (array, unitNumber) {
 
     targetArrayMapped.forEach(item => {
 
-        let element = document.createElement("h2");
+        let element = document.createElement("h4");
 
         element.textContent = item;
 
