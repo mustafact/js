@@ -957,7 +957,7 @@ function GetSelectedText () {
 
     if (window.getSelection) {  // all browsers, except IE before version 9
         var range = window.getSelection();
-        var rangeToString = range.toString().trim();
+        var rangeToString = range.toString().trim().toLowerCase();
         var rangeToArray = rangeToString.split(" ");
 
         if (rangeToArray.length === 1) {
