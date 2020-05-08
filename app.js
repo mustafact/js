@@ -1007,7 +1007,7 @@ function htmlCreator (array, unitNumber) {
 
     targetArrayMapped.forEach(item => {
 
-        let element = document.createElement("h2");
+        let element = document.createElement("h4");
 
         element.textContent = item;
 
@@ -1102,7 +1102,7 @@ selectedUnit.addEventListener("change", function() {
 
 
 backToTop.addEventListener("click", function (){
-    console.log("HELLO");
+   
     window.scrollTo(0,0);
 });
 
