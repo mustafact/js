@@ -1,5 +1,6 @@
 
 
+
 document.body.style.backgroundColor = "gray";
 
 
@@ -926,6 +927,8 @@ const divSentencesDisplay = document.getElementById("div-sentences-display");
 
 const divSelectUnits = document.getElementById("select-units");
 
+const backToTop = document.getElementById("back-to-top");
+
 
 
 
@@ -958,7 +961,7 @@ function GetSelectedText () {
         var rangeToArray = rangeToString.split(" ");
 
         if (rangeToArray.length === 1) {
-            definitionScreen = window.open(`https://jisho.org/search/${rangeToString}`,"_blank", "width=150,height=150" );
+            definitionScreen = window.open(`https://jisho.org/search/${rangeToString}`,"_blank" );
             
         } else if(rangeToArray.length > 1) {
             definitionScreen = window.open(`https://translate.google.com/#view=home&op=translate&sl=ja&tl=en&text=${rangeToString}`, "_blank" ) 
@@ -1061,9 +1064,9 @@ function htmlOptions (array) {
 };
 
 
+// initializing the options with the assumed book
+
 htmlOptions(dataChinese);
-
-
 
 
 
@@ -1078,8 +1081,8 @@ htmlOptions(dataChinese);
 // });
 
 document.oncopy = () => {
-    GetSelectedText()
-}
+    GetSelectedText();
+};
 
 
 // select unit event
@@ -1092,8 +1095,15 @@ selectedUnit.addEventListener("change", function() {
 
     htmlGeneratorFromUnitNumber (selectedArray, unitNumber);
 
+    backToTop.style.display = "block";
+
 });
 
 
+
+backToTop.addEventListener("click", function (){
+    console.log("HELLO");
+    window.scrollTo(0,0);
+});
 
 
