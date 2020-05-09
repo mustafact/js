@@ -1,9 +1,8 @@
 
 
 
-
 body {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 25%;
     margin-bottom : 10%;
@@ -21,4 +20,16 @@ body {
 
 #div-books-selection {
     display: none;
+}
+
+#button-patterns {
+    margin-bottom: 5%;
+}
+
+#div-patterns-display {
+
+}
+
+#div-units {
+    display : none;
 }
