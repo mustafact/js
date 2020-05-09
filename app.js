@@ -1,4 +1,6 @@
 
+
+
 document.body.style.backgroundColor = "gray";
 
 
@@ -904,6 +906,138 @@ const dataChinese = [
 { japanese : "" , meaning : "",  book : "minna", unit : "41",  type : "sentence", pattern : "", },
 { japanese : "" , meaning : "",  book : "minna", unit : "41",  type : "sentence", pattern : "", },
 { japanese : "" , meaning : "",  book : "minna", unit : "41",  type : "sentence", pattern : "", },
+{ japanese : "tiimu no tame ni, kyouryoku shina kereba naranai" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no tame ni, …", },
+{ japanese : "shourai no tame ni, chokin shimasu" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no tame ni, …", },
+{ japanese : "shiken ni goukaku suru tame ni, benkyou o ganbaritai desu" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no tame ni, …", },
+{ japanese : "nihon de hataraku tame ni, nihongo o benkyou shinakereba narimasen" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no tame ni, …", },
+{ japanese : "nihon de hatarakeruyou ni, nihongo o benkyou shinakereba narimasen" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no tame ni, …", },
+{ japanese : "soko e iku no ni donogurai kakarimasu ka" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no ni, …", },
+{ japanese : "kono suteeki o taberu no ni, naifu to fooku o tsukatte kudasai" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no ni, …", },
+{ japanese : "youfuku kau no ni, okane o tamemashita" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no ni, …", },
+{ japanese : "kono jisho wa benkyou ni benri desu" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no ni, …", },
+{ japanese : "kuruma wa watashi no tsuukin ni hitsuyou desu" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Vd || N no ni, …", },
+{ japanese : "nihon ni iku no ni juu hon en wa hitsuyou desu" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Quantifier wa", },
+{ japanese : "atarashii kuruma o kau no ni nihyaku hon en mo hitsuyou kamoshiremasen" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Quantifier mo", },
+{ japanese : "kouen de tomodachi o ni jikan mo machimashita" , meaning : "",  book : "minna", unit : "42",  type : "sentence", pattern : "Quantifier mo", },
+{ japanese : "kanojo ga naki sou desu" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sou desu", },
+{ japanese : "konkai wa karera ga shiai ni kachi sou desu ne" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sou desu", },
+{ japanese : "kuruma no ushiro ni atari sou desu" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sou desu", },
+{ japanese : "kanojo wa jibun no jinsei ni manzoku sou desu" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sou desu", },
+{ japanese : "tomodachi ga katta kuruma wa benri sou desu" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sou desu", },
+{ japanese : "kono suteeki wa oishi sou desu" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sou desu", },
+{ japanese : "kare wa waka sou desu" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sou desu", },
+{ japanese : "konbini de pan o katte kimasu" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vte kimasu", },
+{ japanese : "nani mo shite inai kara, kouen o sanpo shite kimasu ne" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vte kimasu", },
+{ japanese : "doko e iku n desu ka / kuruma no naka ni saifu o wasureta no de chotto totte kuru" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vte kimasu", },
+{ japanese : "gakkou e itte kimasu" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vte kimasu", },
+{ japanese : "chotto dekakete kimasu" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "Vte kimasu", },
+{ japanese : "" , meaning : "",  book : "minna", unit : "43",  type : "sentence", pattern : "", },
+{ japanese : "tabe sugita kara onaka ga itai desu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sugimasu", },
+{ japanese : "shiken wa kantan sugimasu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sugimasu", },
+{ japanese : "tabako o sui sugiru to byouki ni naru yo" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sugimasu", },
+{ japanese : "okachan wa kawai sugiru" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sugimasu", },
+{ japanese : "tomodachi ga katta kuruma wa taka sugiru" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sugimasu", },
+{ japanese : "sono kutsu wa watashi ni wa ookii sugiru yo" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sugimasu", },
+{ japanese : "chichi wa hataraki sugimasu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem || Adj-i => Adj || Adj-na => Adj sugimasu", },
+{ japanese : "kono keitai denwa wa tsukai yasui desu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem yasui desu || nikui desu", },
+{ japanese : "kinou watashi ga tsukutta keeki wa tsukuri yasui desu " , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem yasui desu || nikui desu", },
+{ japanese : "kanojo no setsumei wa wakari yasui desu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem yasui desu || nikui desu", },
+{ japanese : "kuruma ga nakatta ra, inaka ni sumi nikui desu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem yasui desu || nikui desu", },
+{ japanese : "kanji wa oboe nikui desu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Vstem yasui desu || nikui desu", },
+{ japanese : "okachan ga nete iru no de, terebi no oto o chiisaku shimasu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Adj-i => Adj ku|| Adj-na => Adj ni  || N ni shimasu", },
+{ japanese : "heya ni hana o kazatte kirei ni shimasu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Adj-i => Adj ku|| Adj-na => Adj ni  || N ni shimasu", },
+{ japanese : "nomimono wa nani ni shimasu ka / koohii ni shimasu" , meaning : "",  book : "minna", unit : "44",  type : "sentence", pattern : "Adj-i => Adj ku|| Adj-na => Adj ni  || N ni shimasu", },
+{ japanese : "kaji no baai wa, hijouguchi o tsukatte kudasai" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N no baai wa", },
+{ japanese : "kikenna baai wa, keisatsu o yonde kudasai" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N no baai wa", },
+{ japanese : "kaigi ni sanka dekinai baai wa, hayaku renraku shinakereba narimasen" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N no baai wa", },
+{ japanese : "shigoto ni ou hoshitai baai wa, watashi ni chokusetsu rirekisho o okutte mo ii desu" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N no baai wa", },
+{ japanese : "zairyuu kaado o nakushita baai wa, sugu nyuukoku kanrikyoku ni renraku shite kudasai" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N no baai wa", },
+{ japanese : "yuusou no baai wa, kitte o haritsukete, kono juusho ni okutte kudasai" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N no baai wa", },
+{ japanese : "takusan benkyou shita no ni, shiken ni shippai shita" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N na no ni …", },
+{ japanese : "ie wa chikai no ni, itsumo okurete iru ne" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N na no ni …", },
+{ japanese : "kyou wa shukujitsuna no ni, shigoto ni ikanai to imasen" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N na no ni …", },
+{ japanese : "kare ni soto ni ikanai to itta no ni, dekaketa" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N na no ni …", },
+{ japanese : "konpyuutaa wa atarashii no ni, mou kowaremashita" , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N na no ni …", },
+{ japanese : "daietto shite iru no ni, yasenai " , meaning : "",  book : "minna", unit : "45",  type : "sentence", pattern : "Vp || Adj-i || Adj-na || N na no ni …", },
+{ japanese : "kanojo ga kita toki ni dekakeru tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vd tokoro desu", },
+{ japanese : "ima kara shiken wa hajimaru tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vd tokoro desu", },
+{ japanese : "watashi wa supaa e kudamono o kaini iku tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vd tokoro desu", },
+{ japanese : "jonsan wa repooto o kaku tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vd tokoro desu", },
+{ japanese : "ima jonsan wa repooto o kaite iru tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vte iru tokoro", },
+{ japanese : "ima unten shite iru tokoro desu kara, juuppun go ni denwa o kakena oshite mo ii desu ka" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vte iru tokoro", },
+{ japanese : "haha ni tanjoubi no puresento wa nani o kau ka ima kangaete iru tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vte iru tokoro", },
+{ japanese : "shukudai wa mou owarimashita ka / iie, mada desu. ima shite iru tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vte iru tokoro", },
+{ japanese : "tattaima jonsan wa repooto o kaita tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vta tokoro desu", },
+{ japanese : "chichi wa choudoima kaetta tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vta tokoro desu", },
+{ japanese : "kuukou ni tsuita tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vta tokoro desu", },
+{ japanese : "sensei ni messaiji o (message) tsutaeta tokoro desu " , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vta tokoro desu", },
+{ japanese : "konbini de obentou o katta tokoro desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vta tokoro desu", },
+{ japanese : "sengetsu kuruma o katta bakari desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vta bakari desu", },
+{ japanese : "nakayamasan wa atarashii ie ni hikko shita bakari desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vta bakari desu", },
+{ japanese : "senshuu kaetta bakari no ni, mada kono shuumatsu ni kaeritai desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vd || Vnai || Adj-i || Adj-na || N no hazu desu", },
+{ japanese : "kinou kanojo wa taiin shita bakarina no de, kyou konai hazu desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vd || Vnai || Adj-i || Adj-na || N no hazu desu", },
+{ japanese : "raishuu nihonjin no tomodachi wa fuiripin ni iku hazu desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vd || Vnai || Adj-i || Adj-na || N no hazu desu", },
+{ japanese : "kinou takusan benkyou shimashita kara, kyou no kuizu wa kantanna hazu desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vd || Vnai || Adj-i || Adj-na || N no hazu desu", },
+{ japanese : "sono kuruma wa toyota no saishin moderuna no de, takai hazu desu" , meaning : "",  book : "minna", unit : "46",  type : "sentence", pattern : "Vd || Vnai || Adj-i || Adj-na || N no hazu desu", },
+{ japanese : "ashita wa yuki ga furu sou desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na => Adj da || N da sou desu", },
+{ japanese : "taifu wa konai sou desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na => Adj da || N da sou desu", },
+{ japanese : "kinou hidoi jiko ga atta sou desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na => Adj da || N da sou desu", },
+{ japanese : "kega o shita hito wa inakatta sou desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na => Adj da || N da sou desu", },
+{ japanese : "kotoshi wa natsu ga mijikai sou desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na => Adj da || N da sou desu", },
+{ japanese : "sapporo no yuki matsuri wa kirei da sou desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na => Adj da || N da sou desu", },
+{ japanese : "ashita no tenki wa kumori da sou desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na => Adj da || N da sou desu", },
+{ japanese : "konsaato ga hajimaru you desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na || N no sou desu", },
+{ japanese : "kachou wa jimusho ni inai you desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na || N no sou desu", },
+{ japanese : "kinou no ban ame ga futta you desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na || N no sou desu", },
+{ japanese : "tawapon san wa shiken ni goukaku shinakatta you desu " , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na || N no sou desu", },
+{ japanese : "soto wa samui you desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na || N no sou desu", },
+{ japanese : "buchou wa amai mono ga sukina you desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na || N no sou desu", },
+{ japanese : "ogawa san no hanashi wa hontou no you desu" , meaning : "",  book : "minna", unit : "47",  type : "sentence", pattern : "Vplain || Adj-i || Adj-na || N no sou desu", },
+{ japanese : "buchou wa mirasan o amerika e shucchou sasemashita" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsemasu", },
+{ japanese : "satousan o kaigi ni shusseki sasemashita" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsemasu", },
+{ japanese : "watashi wa kodomo ni hon o yomasemasu" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsemasu", },
+{ japanese : "watashi wa otouto ni jibun no heya o souji sasemasu" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsemasu", },
+{ japanese : "watashi wa musuko o sukina hito kekkon sasemashita" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsemasu", },
+{ japanese : "watashi wa musume o ikitai daigaku ni ikasemashita" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsemasu", },
+{ japanese : "watashi wa kodomo ni sukina shigoto o sasemasu" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsemasu", },
+{ japanese : "watashi wa musuko o hoshii mono o kawasemasu" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsemasu", },
+{ japanese : "sumimasen ga, ashita yasumasete itadakemasen ka" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsete itadakemasen", },
+{ japanese : "sumimasen ga, kono shiryou o kopii sasete itadakemasen ka" , meaning : "",  book : "minna", unit : "48",  type : "sentence", pattern : "Vsete itadakemasen", },
+{ japanese : "itou sensei wa sakki koraremashita" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "Vremasu", },
+{ japanese : "itou sensei wa ashita wa yasumaremasu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "Vremasu", },
+{ japanese : "shachou wa odekake ni narimashita" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "Vremasu", },
+{ japanese : "shachou wa okaeri ni narimashita" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "Vremasu", },
+{ japanese : "ikimasu || kimasu || imasu => irasshaimasu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "tabemasu || nomimasu => meshiagarimasu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "iimasu => osshaimasu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "shitte imasu => gozonjidesu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "mimasu => goran ni narimasu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "shimasu => nasaimasu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "kuremasu => kudasaimasu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "shachou wa kaigishitsu ni irasshaimasu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "shachou wa gorufu o nasaimasu" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "okake kudasai" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "ohairi kudasai" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "gochuui kudasai" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "renraku kudasai" , meaning : "",  book : "minna", unit : "49",  type : "sentence", pattern : "polite form", },
+{ japanese : "watakushi ga koohii o ire shimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "watakushi ga eki made o okuri shimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "watakushi ga kyou no yotei o go satsumei shimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "watakushi ga dekirudake hayaku go renraku shimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "ikimasu || kimasu => mairimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "imasu => orimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "tabemasu || nomimasu || moraimasu => itadakimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "iimasu => moushimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "shimasu => itashimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "shitte imasu => zonjite orimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "shirimasen => zonjimasen" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "mimasu => haikenshimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "kikimasu || uchi e ikimasu => ukagaimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "aimasu => omeni kakarimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "ashita 3ji ni otaku e ukagaimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "raishuu omeni kakarimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "watakushi miraa to moushimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
+{ japanese : "IMC ni tsutomete orimasu" , meaning : "",  book : "minna", unit : "50",  type : "sentence", pattern : "humble / fem form", },
 
   
 ];
@@ -916,24 +1050,75 @@ const dataChinese = [
 
 
 
-// DOM ELEMENTs
+// DOM ELEMENTS
+
 
 const selectedUnit = document.getElementById("select-units");
 
 const divSentencesDisplay = document.getElementById("div-sentences-display");
 
+const divPatternsDisplay = document.getElementById("div-patterns-display")
+
 const divSelectUnits = document.getElementById("select-units");
+
+const divUnits = document.getElementById("div-units");
 
 const backToTop = document.getElementById("back-to-top");
 
+const buttonUnits = document.getElementById("button-units");
 
-
-
+const buttonPatterns = document.getElementById("button-patterns");
 
 
 
 
 // FUNCTIONS
+
+
+// get study patterns
+
+function getPatterns (data) {
+
+    let patternsArray = data.map(item => item.pattern)
+    let patternsArraySet = [... new Set(patternsArray)]
+
+    htmlPatters(patternsArraySet)
+
+}
+
+
+// make html for patterns 
+
+function htmlPatters (array) {
+
+    divSentencesDisplay.innerHTML = "";
+    divPatternsDisplay.innerHTML = "";
+    
+
+    array.forEach( item => {
+
+        let el = document.createElement("div");
+        el.innerHTML = ` 
+        <h3>${item}</h3> 
+        <div class="sentences"></div>
+        `
+        divPatternsDisplay.append(el)
+    })
+
+}
+
+
+// get individual pattern by click on dom
+
+function clickOnPattern (data, clickedPattern) {
+
+    let filteredArray = data.filter(item => item.pattern === clickedPattern)
+    let mappedArray = filteredArray.map(item => item.japanese)
+    return mappedArray
+
+}
+
+
 
 
 // selection per unit in book
@@ -946,7 +1131,7 @@ function selectUnit (array, bookName, unitNumber) {
 };
 
 
-
+// copy and get test
 
 function GetSelectedText () {
 
@@ -974,7 +1159,7 @@ function GetSelectedText () {
 
 
 
-// Dynamic html Generator
+// Dynamic html Generator from the unit numbers
 
 
 
@@ -991,7 +1176,7 @@ function htmlGeneratorFromUnitNumber (array, unitNumber) {
 
 
 
-
+// render the unit sentences
 
 function htmlCreator (array, unitNumber) {
 
@@ -1024,6 +1209,7 @@ function htmlCreator (array, unitNumber) {
 }
 
 
+// make option numbers in an array
 
 function makeOptions (array) {
 
@@ -1082,6 +1268,7 @@ document.oncopy = () => {
 };
 
 
+
 // select unit event
 
 selectedUnit.addEventListener("change", function() {
@@ -1103,3 +1290,60 @@ backToTop.addEventListener("click", function (){
 });
 
 
+// pattern selection button event
+
+buttonPatterns.addEventListener("click", function() {
+
+
+divUnits.style.display = "none";
+    getPatterns(dataChinese)
+
+    backToTop.style.display = "block";
+})
+
+
+
+
+
+
+buttonUnits.addEventListener("click", function(e) {
+
+divPatternsDisplay.innerHTML = "";
+divSentencesDisplay.innerHTML = "";
+divUnits.style.display = "block";
+backToTop.style.display = "none";
+})
+
+
+// div patterns click pattern event
+
+divPatternsDisplay.addEventListener("click", function(e) {
+
+    let clickedPattern = e.target.textContent
+
+    let sentencesArray = clickOnPattern(dataChinese, clickedPattern)
+
+    let divText = e.target.nextElementSibling.textContent
+
+
+    if (divText === "") {
+
+  
+        console.log("boş")
+
+        sentencesArray.forEach(item => {
+
+            let el = document.createElement("p")
+            el.textContent = item
+            e.target.nextElementSibling.append(el)
+
+        })
+   
+    } else {
+
+        console.log("dolu")
+        e.target.nextElementSibling.textContent = ""
+
+    }
+    
+})
