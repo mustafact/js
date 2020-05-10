@@ -1082,28 +1082,89 @@ function getPatterns (data) {
     let patternsArray = data.map(item => item.pattern)
     let patternsArraySet = [... new Set(patternsArray)]
 
-    htmlPatters(patternsArraySet)
+    htmlCreatorPatterns(patternsArraySet)
+
+  
 
 }
 
 
 // make html for patterns 
 
-function htmlPatters (array) {
+function htmlCreatorPatterns (array) {
 
     divSentencesDisplay.innerHTML = "";
     divPatternsDisplay.innerHTML = "";
+
+
+
+    array.forEach(item => {
+
+
+        let patternTitle = document.createElement("h3");
+        patternTitle.setAttribute("class", "pattern-title")
+        patternTitle.textContent = item
+        divPatternsDisplay.append(patternTitle)
+
+        let patternSentencesDiv = document.createElement("div")
+        patternSentencesDiv.setAttribute("class", "pattern-sentences-div")
+        patternSentencesDiv.style.display = "none"
+        divPatternsDisplay.append(patternSentencesDiv)
+        
+
+
+
+
+        let filtered = dataChinese.filter(data => data.pattern === item);
+
+
+
+
+
+    filtered.forEach( item => {
+
+       
+        let patternDiv = document.createElement("div");
+        patternDiv.setAttribute("class", "pattern-div")
+        patternDiv.style.display = "block";
+
+
+        let japaneseP = document.createElement("p")
+        japaneseP.setAttribute("class", "japanese-p")
+        japaneseP.textContent = item.japanese
+        japaneseP.style.display = "block"
+
+        let meaningP = document.createElement("p")
+        meaningP.setAttribute("class", "meaning-p")
+        meaningP.textContent = item.meaning
+        meaningP.style.display = "none"
+        meaningP.style.color = "blue"
+
+    
+        patternDiv.append(japaneseP)
+        patternDiv.append(meaningP)
+
+        patternSentencesDiv.append(patternDiv)
+
+        
+
+    })
+
+
+
+
+
+
+    })
+
     
 
-    array.forEach( item => {
 
-        let el = document.createElement("div");
-        el.innerHTML = ` 
-        <h3>${item}</h3> 
-        <div class="sentences"></div>
-        `
-        divPatternsDisplay.append(el)
-    })
+
+
+
+
+
 
 }
 
@@ -1165,11 +1226,9 @@ function GetSelectedText () {
 
 function htmlGeneratorFromUnitNumber (array, unitNumber) {
 
+
     divSentencesDisplay.innerHTML = "";
-
-
-
-    htmlCreator(array, unitNumber);
+    htmlCreatorSentences (array, unitNumber);
 
 
 }
@@ -1178,7 +1237,7 @@ function htmlGeneratorFromUnitNumber (array, unitNumber) {
 
 // render the unit sentences
 
-function htmlCreator (array, unitNumber) {
+function htmlCreatorSentences (array, unitNumber) {
 
     let targetArray = selectUnit(array, "minna", unitNumber);
 
@@ -1189,11 +1248,11 @@ function htmlCreator (array, unitNumber) {
 
     targetArrayMapped.forEach(item => {
 
-        let element = document.createElement("h4");
+        let patternTitle = document.createElement("h3");
 
-        element.textContent = item;
+        patternTitle.textContent = item;
 
-        divSentencesDisplay.append(element);
+        divSentencesDisplay.append(patternTitle);
 
 
         let filtered = targetArray.filter(data => data.pattern === item);
@@ -1201,9 +1260,35 @@ function htmlCreator (array, unitNumber) {
         console.log(filtered);
 
         filtered.forEach(veri => {
-            let element = document.createElement("p");
-            element.textContent = veri.japanese;
-            divSentencesDisplay.append(element);
+
+            let sentenceDiv = document.createElement("div")
+            sentenceDiv.setAttribute("class", "sentence-div")
+
+            let japaneseP = document.createElement("p")
+            japaneseP.setAttribute("class", "japanese-p")
+            japaneseP.textContent = veri.japanese
+
+            let meaningP = document.createElement("p")
+            meaningP.setAttribute("class", "meaning-p")
+            meaningP.style.display = "none"
+            meaningP.style.color = "blue"
+            meaningP.textContent = veri.meaning
+
+            sentenceDiv.append(japaneseP)
+            sentenceDiv.append(meaningP)
+
+            patternTitle.append(sentenceDiv)
+
+
+            // let element = document.createElement("p");
+            // element.setAttribute("class", "japanese")
+            // let meaningElement = document.createElement("p")
+            // meaningElement.setAttribute("class", "meaning")
+            // element.textContent = veri.japanese;
+            // divSentencesDisplay.append(element);
+            // divSentencesDisplay.append(meaningElement);
+
+
         });
     });
 }
@@ -1296,12 +1381,11 @@ buttonPatterns.addEventListener("click", function() {
 
 
 divUnits.style.display = "none";
+
     getPatterns(dataChinese)
 
     backToTop.style.display = "block";
 })
-
-
 
 
 
@@ -1312,38 +1396,48 @@ divPatternsDisplay.innerHTML = "";
 divSentencesDisplay.innerHTML = "";
 divUnits.style.display = "block";
 backToTop.style.display = "none";
+
 })
 
 
-// div patterns click pattern event
 
-divPatternsDisplay.addEventListener("click", function(e) {
+function findMeaning (array, japanese) {
 
-    let clickedPattern = e.target.textContent
-
-    let sentencesArray = clickOnPattern(dataChinese, clickedPattern)
-
-    let divText = e.target.nextElementSibling.textContent
-
-
-    if (divText === "") {
-
-  
-        console.log("boş")
-
-        sentencesArray.forEach(item => {
-
-            let el = document.createElement("p")
-            el.textContent = item
-            e.target.nextElementSibling.append(el)
-
-        })
-   
-    } else {
-
-        console.log("dolu")
-        e.target.nextElementSibling.textContent = ""
-
-    }
+    let filtered = array.filter(item => item.japanese === japanese)
+    let meaning = filtered[0].meaning
     
+    return meaning
+
+
+}
+
+
+
+document.body.addEventListener("click", function(e){
+
+    if (e.target.className === "japanese-p") {
+        
+       if (e.target.nextElementSibling.style.display === "none") {
+        e.target.nextElementSibling.style.display = "block"
+       } else if(e.target.nextElementSibling.style.display === "block") {
+        e.target.nextElementSibling.style.display = "none" 
+       }  
+    }
+
+
+    if (e.target.className === "pattern-title") {
+
+        if( e.target.nextElementSibling.style.display === "none") {
+            e.target.nextElementSibling.style.display = "block"
+        } else {
+            e.target.nextElementSibling.style.display = "none"
+        }
+
+       
+    }
+
+   
 })
+
+
+
