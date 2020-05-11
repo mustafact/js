@@ -108,14 +108,14 @@ const dataChinese = [
     { japanese : "koko de tabako o sutte wa ikemasen" , meaning : "burada sigara içmek olmaz",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
     { japanese : "bijutsukan no naka de shashin o totte wa ikemasen" , meaning : "müzenin içinde foto çekmek olur mu? Hayır, olmaz / evet olur",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
     { japanese : "koko de kuruma o tomete mo ii desu ka? iie, ikemasen / iie, dame desu" , meaning : "burada araba parketmek olur mu? Hayır olmaz / hayır, yasak",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
-    { japanese : "koko ni kuruma o tomete wa ikemasen" , meaning : "",  book : "minna", unit : "16",  type : "sentence", pattern : "Vte wa ikemasen", },
-    { japanese : "kodomo wa osake o nonde wa ikemasen" , meaning : "",  book : "minna", unit : "17",  type : "sentence", pattern : "Vte wa ikemasen", },
-    { japanese : "nihonde kuruma wa migi hashitte wa ikemasen" , meaning : "",  book : "minna", unit : "18",  type : "sentence", pattern : "Vte wa ikemasen", },
-    { japanese : "sakkaa de te o tsukatte wa ikemasen" , meaning : "",  book : "minna", unit : "19",  type : "sentence", pattern : "Vte wa ikemasen", },
-    { japanese : "koko de shashin o totte wa ikemasen" , meaning : "",  book : "minna", unit : "20",  type : "sentence", pattern : "Vte wa ikemasen", },
-    { japanese : "koko de tabako o sutte mo ii desu ka" , meaning : "",  book : "minna", unit : "21",  type : "sentence", pattern : "Vte wa ikemasen", },
-    { japanese : "koko de tabako o sutte wa ikemasen" , meaning : "",  book : "minna", unit : "22",  type : "sentence", pattern : "Vte wa ikemasen", },
-    { japanese : "kono michi o tootte wa ikemasen" , meaning : "",  book : "minna", unit : "23",  type : "sentence", pattern : "Vte wa ikemasen", },
+    { japanese : "koko ni kuruma o tomete wa ikemasen" , meaning : "",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
+    { japanese : "kodomo wa osake o nonde wa ikemasen" , meaning : "",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
+    { japanese : "nihonde kuruma wa migi hashitte wa ikemasen" , meaning : "",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
+    { japanese : "sakkaa de te o tsukatte wa ikemasen" , meaning : "",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
+    { japanese : "koko de shashin o totte wa ikemasen" , meaning : "",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
+    { japanese : "koko de tabako o sutte mo ii desu ka" , meaning : "",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
+    { japanese : "koko de tabako o sutte wa ikemasen" , meaning : "",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
+    { japanese : "kono michi o tootte wa ikemasen" , meaning : "",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte wa ikemasen", },
     { japanese : "kare wa kekkon shite imasu" , meaning : "o evlidir (evli durumda)",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte imasu", },
     { japanese : "kazoku wa nagoya ni sunde imasu" , meaning : "ailem nagoya'da yaşamakta",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte imasu", },
     { japanese : "ninen nihongo o benkyou shite imasu" , meaning : "iki yıldır japonca çalışmaktayım",  book : "minna", unit : "15",  type : "sentence", pattern : "Vte imasu", },
@@ -314,10 +314,10 @@ const dataChinese = [
     { japanese : "shokuji no owari ni nan to iimasu ka / gochisou samadeshita to iimasu" , meaning : "yemek bittikten sonra ne diye söylersin",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp to iimasu", },
     { japanese : "you're welcome' wa nihongo de nan to iimasu ka? Dou itashimashite to iimasu" , meaning : "you're welcome' japoncada nasıl söylenir? 'dou itashimashite' diye söylenir",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp to iimasu", },
     { japanese : "suuzii wa ashita no yotei ni tsuite nan to iimashita ka? Daijoubu da to iimashita" , meaning : "suzy yarının planı üzerine ne diye söylüyor? Tamam diye söylüyor.",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp to iimasu", },
-    { japanese : "watashi wa 'musty' to iimasu" , meaning : "",  book : "minna", unit : "22",  type : "sentence", pattern : "Splain || Vp to iimasu", },
-    { japanese : "kore wa nihongo de me to iimasu" , meaning : "",  book : "minna", unit : "23",  type : "sentence", pattern : "Splain || Vp to iimasu", },
-    { japanese : "kore wa nihongo de mimi / hana / kuchi / ha / hoho / kami to iimasu" , meaning : "",  book : "minna", unit : "24",  type : "sentence", pattern : "Splain || Vp to iimasu", },
-    { japanese : "nihonjin wa kaerutoki 'sayoonara' to iimasu" , meaning : "",  book : "minna", unit : "25",  type : "sentence", pattern : "Splain || Vp to iimasu", },
+    { japanese : "watashi wa 'musty' to iimasu" , meaning : "",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp to iimasu", },
+    { japanese : "kore wa nihongo de me to iimasu" , meaning : "",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp to iimasu", },
+    { japanese : "kore wa nihongo de mimi / hana / kuchi / ha / hoho / kami to iimasu" , meaning : "",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp to iimasu", },
+    { japanese : "nihonjin wa kaerutoki 'sayoonara' to iimasu" , meaning : "",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp to iimasu", },
     { japanese : "asatte yuki ga furu deshou?" , meaning : "yarın kar yağar di mi? (yağar mı)",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp deshou", },
     { japanese : "jettokoosutaa wa tanoshii deshou?" , meaning : "kaykay eğlenceli di mi?",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp deshou", },
     { japanese : "watashi no kanojo wa kirei deshou?" , meaning : "benim kız arkadaşım güzel di mi?",  book : "minna", unit : "21",  type : "sentence", pattern : "Splain || Vp deshou", },
@@ -1565,7 +1565,7 @@ function selectUnit (array, bookName, unitNumber) {
 
 // copy and get test
 
-function GetSelectedText () {
+function getSelectedText () {
 
     let definitionScreen;
 
@@ -1712,15 +1712,9 @@ htmlOptions(dataChinese);
 // EVENT LISTENERS
 
 
-// copy text event
-// document.addEventListener("copy", function() {
-
-// GetSelectedText();
-
-// });
 
 document.oncopy = () => {
-    GetSelectedText();
+    getSelectedText();
 };
 
 
