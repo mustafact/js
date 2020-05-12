@@ -1,7 +1,5 @@
 
-
-
-document.body.style.backgroundColor = "gray";
+//document.body.style.backgroundColor = "gray";
 
 
 // DATABASE
@@ -1440,6 +1438,48 @@ const buttonUnits = document.getElementById("button-units");
 
 const buttonPatterns = document.getElementById("button-patterns");
 
+const buttonThemes = document.getElementById("button-themes");
+
+const divThemes = document.getElementById("div-themes");
+
+const divSelectThemes = document.getElementById("select-themes");
+
+
+
+buttonThemes.addEventListener("click", function(){
+    divThemes.style.display = "block";
+      
+});
+
+
+divSelectThemes.addEventListener("change", function(e) {
+
+    let selectedTheme = e.target.value
+
+    switch (selectedTheme) {
+        case "white" :
+            document.body.style.backgroundColor = "white";
+            break;
+        case "gray" :
+            document.body.style.backgroundColor = "#d7d7d9";
+            break;
+        case "dark-gray" :
+            document.body.style.backgroundColor = "#b9b9bd";
+            break;
+        case "yellow" :
+            document.body.style.backgroundColor = "#ffd9b0";
+            break;
+        case "dark-yellow" :
+            document.body.style.backgroundColor = "#ffbd77";
+            break;
+        default:
+            document.body.style.backgroundColor = "white";
+    };
+
+    divThemes.style.display = "none";
+    
+});
+
 
 
 
@@ -1450,14 +1490,13 @@ const buttonPatterns = document.getElementById("button-patterns");
 
 function getPatterns (data) {
 
-    let patternsArray = data.map(item => item.pattern)
-    let patternsArraySet = [... new Set(patternsArray)]
+    let patternsArray = data.map(item => item.pattern);
+    let patternsArraySet = [... new Set(patternsArray)];
 
-    htmlCreatorPatterns(patternsArraySet)
+    htmlCreatorPatterns(patternsArraySet);
 
-  
 
-}
+};
 
 
 // make html for patterns 
@@ -1473,14 +1512,14 @@ function htmlCreatorPatterns (array) {
 
 
         let patternTitle = document.createElement("h3");
-        patternTitle.setAttribute("class", "pattern-title")
-        patternTitle.textContent = item
-        divPatternsDisplay.append(patternTitle)
+        patternTitle.setAttribute("class", "pattern-title");
+        patternTitle.textContent = item;
+        divPatternsDisplay.append(patternTitle);
 
-        let patternSentencesDiv = document.createElement("div")
-        patternSentencesDiv.setAttribute("class", "pattern-sentences-div")
-        patternSentencesDiv.style.display = "none"
-        divPatternsDisplay.append(patternSentencesDiv)
+        let patternSentencesDiv = document.createElement("div");
+        patternSentencesDiv.setAttribute("class", "pattern-sentences-div");
+        patternSentencesDiv.style.display = "none";
+        divPatternsDisplay.append(patternSentencesDiv);
         
 
 
@@ -1496,26 +1535,26 @@ function htmlCreatorPatterns (array) {
 
        
         let patternDiv = document.createElement("div");
-        patternDiv.setAttribute("class", "pattern-div")
+        patternDiv.setAttribute("class", "pattern-div");
         patternDiv.style.display = "block";
 
 
-        let japaneseP = document.createElement("p")
-        japaneseP.setAttribute("class", "japanese-p")
-        japaneseP.textContent = item.japanese
-        japaneseP.style.display = "block"
+        let japaneseP = document.createElement("p");
+        japaneseP.setAttribute("class", "japanese-p");
+        japaneseP.textContent = item.japanese;
+        japaneseP.style.display = "block";
 
-        let meaningP = document.createElement("p")
-        meaningP.setAttribute("class", "meaning-p")
-        meaningP.textContent = item.meaning
-        meaningP.style.display = "none"
-        meaningP.style.color = "blue"
+        let meaningP = document.createElement("p");
+        meaningP.setAttribute("class", "meaning-p");
+        meaningP.textContent = item.meaning;
+        meaningP.style.display = "none";
+        meaningP.style.color = "blue";
 
     
-        patternDiv.append(japaneseP)
-        patternDiv.append(meaningP)
+        patternDiv.append(japaneseP);
+        patternDiv.append(meaningP);
 
-        patternSentencesDiv.append(patternDiv)
+        patternSentencesDiv.append(patternDiv);
 
         
 
@@ -1746,6 +1785,7 @@ buttonPatterns.addEventListener("click", function() {
 
 
 divUnits.style.display = "none";
+divThemes.style.display = "none";
 
     getPatterns(dataChinese)
 
@@ -1757,6 +1797,7 @@ divUnits.style.display = "none";
 
 buttonUnits.addEventListener("click", function(e) {
 
+divThemes.style.display = "none";
 divPatternsDisplay.innerHTML = "";
 divSentencesDisplay.innerHTML = "";
 divUnits.style.display = "block";

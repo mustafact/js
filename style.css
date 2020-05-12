@@ -41,3 +41,7 @@ body {
 .sentences {
     font-size: 1rem;
 }
+
+#div-themes {
+    display : none;
+}
