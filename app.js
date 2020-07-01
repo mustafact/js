@@ -1469,7 +1469,7 @@ function clickOnPattern(data, clickedPattern) {
 
 function selectUnit(array, bookName, unitNumber) {
 
-    let filteredUnit = array.filter(item => item.book === bookName && item.unit === unitNumber);
+    let filteredUnit = array.filter(item => item.source === bookName && item.unit === unitNumber);
 
     return filteredUnit;
 };
